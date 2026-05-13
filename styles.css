@@ -77,3 +77,23 @@
   .hero {
     background: #f0f4f8;
   }
+  
+  .contact-btn {
+    margin-top: 1rem;
+    background: #0d1b2a;
+    color: #fff;
+    border: none;
+    padding: 0.65rem 1.25rem;
+    border-radius: 0.4rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .contact-btn:hover {
+    background: #1b263b;
+  }
+  
+  .contact-btn:focus {
+    outline: 2px solid #ffd166;
+    outline-offset: 2px;
+  }
