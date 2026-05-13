@@ -42,6 +42,33 @@
     color: #ffd166;
   }
   
+  .nav-search {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-icon-button {
+    background: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.25rem;
+    border-radius: 0.35rem;
+  }
+  
+  .nav-icon-button:hover {
+    color: #ffd166;
+    background: rgba(255, 209, 102, 0.12);
+  }
+  
+  .nav-icon-button:focus {
+    outline: 2px solid #ffd166;
+    outline-offset: 2px;
+  }
+  
   .section {
     padding: 4rem 2rem;
     text-align: center;
